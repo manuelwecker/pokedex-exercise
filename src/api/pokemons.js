@@ -8,6 +8,10 @@
  */
 import pokemons from 'json-pokemon';
 
+fetch('https://pokeapi.co/api/v2/pokemon/pikachu')
+  .then(response => response.json())
+  .then(data => console.log(data));
+
 export function getPokemonsByName(pokemonName) {
   /**
    * pokemonName is unused.
