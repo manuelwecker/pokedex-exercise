@@ -1,6 +1,9 @@
 .results {
   font-size: 0.8rem;
 }
+.results ul {
+  list-style: none;
+}
 
 .results__empty {
   color: $warning-color;
